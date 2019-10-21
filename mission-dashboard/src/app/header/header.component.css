@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    border: double;
+}
+
+h3 {
+    text-align:center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+div {
+    border: 4px dotted blueviolet;
+}
