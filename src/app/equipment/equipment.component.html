@@ -3,6 +3,8 @@
     <ol>
         <li *ngFor="let item of equipmentItems">
             <!-- "Add to Cargo Hold" button goes here. -->
+            <button [disabled]="inactive" (click) = "addItem(item)">Add to Cargo Hold</button>
+            <!-- <button [class.gold]="!inactive" [disabled]="inactive" (click)="inactive = true">Gold</button> <br> -->
             {{item.name}}, {{item.mass}} kg
         </li>
     </ol>
